@@ -8,7 +8,7 @@ body{
     background-image:  url(https://res.cloudinary.com/chowdeck/image/upload/v1659209900/uploads_dev/sodecapvsqaf9wgr6vyb.jpg);
     background-position: center;
     background-size: cover;
-    color: #502314;
+    color: #E75480;
     padding-bottom: 100px;
   }
   label{
@@ -30,7 +30,7 @@ body{
   }
   div{
     background-color:#F5EBDC;
-    padding:15px;
+    padding:16px;
     border-radius: 5px;
     max-width:500px;
     margin:auto;
@@ -42,7 +42,7 @@ body{
   h1,.description {
     margin: 25px auto;
     text-align: center;
-    color:white;
+    color:#FFD1DC;
   }
   
   p{
