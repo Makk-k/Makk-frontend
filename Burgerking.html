@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Burger King survery</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Burger King Survey</h1>
+    <p id="description" class="description">Thank you for taking to time to improve our service</p>
+    <div>                      
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label" class="tlabel">Name: <input type="text" id="name"  placeholder=" Enter your name" required></label>
+          <label for="email" id="email-label" class="tlabel">Email: <input type="email" id="email"  placeholder=" Enter your email" required></label>
+          <label for="number" id="number-label" class="tlabel">Age: <input type="number" min="10" max="98" id="number" value="number" placeholder=" How old are you"></label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown" class="tlabel">Which would you rather do?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Drive through</option>
+            <option value="2">Eat in</option>
+          </select>
+        </label>
+        <p>Which would you rather do?</p>
+          <label for="Takeout"><input id="Takeout" type="radio" value="takeout"name="in-or-out" class="inline" /> Order Takeouts</label>
+          <label for="Resturant"><input id="Resturant" type="radio" value="resturant" name="in-or-out" class="inline" /> Go out to a resturant</label>
+          <p>What are your favorite burger king items</p>
+          <label for="steake"><input type="checkbox" class="inline" id="steake" value="steake" name="fave">Steakhouse </label>
+          <label for="bigking">
+          <input id="bigking" type="checkbox"  name="fave" class="inline" value="bigking">Big King </label>
+          <label for="cheeseburger">
+          <input id="cheeseburger" type="checkbox"  name="fave" class="inline" value="cheeseburger">Cheese burger </label>
+          <label for="review" class="tlabel">Leave a review:
+          <textarea id="review" name="bio" rows="5" cols="30" placeholder="I love burgers so much and burger king has always been my go-to..."></textarea>
+        </label>
+        </fieldset>
+        <fieldset>
+          <input id="submit" type="submit" value="Submit" class="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
